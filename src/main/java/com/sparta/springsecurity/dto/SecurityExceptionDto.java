@@ -2,6 +2,11 @@ package com.sparta.springsecurity.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import org.springframework.transaction.annotation.Transactional;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @NoArgsConstructor
@@ -15,3 +20,6 @@ public class SecurityExceptionDto {
         this.msg = msg;
     }
 }
+
+
+
